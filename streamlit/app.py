@@ -3,7 +3,6 @@ import requests
 import os
 
 PATH_API_AWS = st.secrets.get("PATH_API_AWS") or os.getenv("PATH_API_AWS")
-PATH_API_AWS = "https://2unwigbq3h.execute-api.us-east-1.amazonaws.com/VinosRAG/vinos"
 
 # ---------------------------
 # Configuracion de la página
