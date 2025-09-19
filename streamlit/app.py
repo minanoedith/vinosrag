@@ -76,7 +76,8 @@ st.text_area(
 )
 
 # Mostrar detalle debajo de la pregunta y antes de los botones
-mostrar_detalle = st.checkbox("Mostrar detalle", value=False, help="Muestra período y trazas si están disponibles")
+#mostrar_detalle = st.checkbox("Mostrar detalle", value=False, help="Muestra período y trazas si están disponibles")
+mostrar_detalle = ""
 
 # Botones de accion
 col1, col2 = st.columns([1, 1])
