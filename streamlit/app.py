@@ -8,7 +8,7 @@ PATH_API_AWS = st.secrets.get("PATH_API_AWS") or os.getenv("PATH_API_AWS")
 # Configuracion de la página
 # ---------------------------
 st.set_page_config(page_title="Consultas de Ventas", page_icon="📊", layout="centered")
-st.title("Exportación de Vinos 🍷")
+st.title("VIÑA LAS PATAGUAS 🍷")
 st.markdown("Haz una pregunta sobre exportación de vinos y obtén una respuesta basada en datos de ventas")
 
 # ---------------------------------
